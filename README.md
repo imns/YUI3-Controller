@@ -26,6 +26,10 @@ So, a really life example would be something like this
 	Y.fire('controller:set', null, displayModal);
 
 
+**Params:**
+* widgetName (optional) {String} The name of the widget
+* eventName {String} The name of the event you are calling
+* paramsObj (optional) {Object} An object containing a list of key : value pairs you want passed to your event
 
 	
 
